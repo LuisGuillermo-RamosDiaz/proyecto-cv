@@ -1,4 +1,6 @@
-/* ********** Menu ********** */
+/****** JAVASCRIPT ******/
+
+/****** Menu ******/
 ((d) => {
   const $btnMenu = d.querySelector(".menu-btn"),
     $menu = d.querySelector(".menu");
@@ -18,7 +20,7 @@
   });
 })(document);
 
-/* ********** ContactForm ********** */
+/****** ContactForm ******/
 ((d) => {
   const $form = d.querySelector(".contact-form"),
     $loader = d.querySelector(".contact-form-loader"),
@@ -40,7 +42,7 @@
       .catch((err) => {
         console.log(err);
         let message =
-          err.statusText || "Ocurrió un error al enviar, intenta nuevamente";
+          err.statusText || "Ocurrio un error al enviar, intentalo nuevamente";
         $response.querySelector(
           "h3"
         ).innerHTML = `Error ${err.status}: ${message}`;
