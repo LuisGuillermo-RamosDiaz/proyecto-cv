@@ -1,6 +1,6 @@
 # proyecto-cv
 
-Proyecto finalizado como parte de un curso de "one page" por Jon Mircha, cursado por Luis Guillermo Ramos Diaz
+Proyecto finalizado como parte de un curso de "one page" por Jon Mircha, cursado por Luis Guillermo Ramos Diaz para la actividad 1 "maquetado de CV"
 
 ## Proyectos
 
